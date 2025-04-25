@@ -1,0 +1,3 @@
+The file "/usr/sbin/openarenaserver" is a script which will execute all files in "/otp/openarenaserver" then remove them.
+So if I put a file with "/bin/sh \-c getflag" in it and redirect his output in /tmp/test file and wait few seconds/minutes,
+in /tmp/test has appear "Check flag.Here is your token : viuaaale9huek52boumoomioc"

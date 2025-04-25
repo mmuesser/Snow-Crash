@@ -1,0 +1,2 @@
+when level04.pl is cat, you saw a script that use a cgi to take first argument from query_string "x" and echo it.
+So if you put '$(getflag)' it will echo it and $(...) form is for execute cmd with echo

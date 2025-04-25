@@ -1,0 +1,4 @@
+When we use gdb for disasamble level03 main func we saw a system appel, and this appel is "/usr/bin/env echo "Exploit me"
+which is what the file display when we launch it (and the file has root right). So if I can create my own echo to launch getflag, I will get it.
+So I create a /tmp/echo (tmp is the only place I can create file) and i put "/bin/sh \-c getflag" in it, then I make it ex with chmod and add "/tmp" in first in PATH env var with export
+Now a can exec level03 and it will launch "getflag" with root right.
