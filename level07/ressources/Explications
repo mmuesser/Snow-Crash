@@ -1,0 +1,1 @@
+Level07 print the LOGNAME var env value so if I replace the value by '$(getflag)' it will launch the cmd and display the flag

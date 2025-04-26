@@ -1,0 +1,1 @@
+The php script read a file and change it with regex pattern. We want to make it launch "getflag" so we put '[x {${exec(getflag)}}]' inside a file created inside /tmp
